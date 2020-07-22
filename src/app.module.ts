@@ -6,7 +6,7 @@ import { CategoriasModule } from './categorias/categorias.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb://glauber:a1228ds@ds141098.mlab.com:41098/smarttracking',
+      'mongodb://<user>:<password>@ds141098.mlab.com:41098/smartranking',
       {
         useNewUrlParser: true,
         useCreateIndex: true,
